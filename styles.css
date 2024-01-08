@@ -1,5 +1,64 @@
+details {
+	display: block;
+	margin-top: 20px;
+	user-select: none;
+	margin-bottom: 20px;
+}
+
+section {
+	display: block;
+}
+
+summary {
+	display: block;
+	cursor: pointer;
+}
+
+summary::webkit-details-marker {
+	display: none;
+}
+
+.my-name {
+	font-family: 'Tektur'; 
+	font-size:25px; 
+	font-weight: bold;
+}
+
+.col-header-left {
+    width: 49%;
+    float: left;
+    height: 100%;
+}
+
+.col-header-right {
+    width: 49%;
+    float: right;
+	text-align: right;
+    height: 100%;
+}
+
+.col-sub-header {
+	height: 100%;
+}
+
+.col-info {
+	height: 100%;
+	margin-bottom: 25px;
+}
+
 .content {
 	max-width: 960px;
 	margin: auto;
 	margin-top: 100px;
+}
+
+.info {
+	display: block;
+	margin-top: 10px;
+}
+
+.row {
+	float: left;
+	height: auto;
+	width: 100%;
 }
